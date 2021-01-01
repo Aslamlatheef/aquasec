@@ -50,33 +50,33 @@ jobs:
         location: ${{ env.GKE_ZONE }}
         credentials: ${{ secrets.GKE_SA_KEY }}
 
-    # Build the Docker image
+# Build the Docker image
      name: build
-on:
-  push:
-    branches:
-      - master
-  pull_request:
-jobs:
-  build:
-    name: Build
-    runs-on: ubuntu-18.04
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      
-      - name: Build an image from Dockerfile
-        run: |
-          docker build -t docker.io/my-organization/my-app:${{ github.sha }} .
-      
-      - name: Run Trivy vulnerability scanner
-        uses: aquasecurity/trivy-action@master
-        with:
-          image-ref: 'alpine:3.10.2'
-          format: 'table'
-          exit-code: '1'
-          ignore-unfixed: true
-          severity: 'CRITICAL,HIGH'
+      on:
+        push:
+         branches:
+          - master
+      pull_request:
+        jobs:
+          build:
+            name: Build
+            runs-on: ubuntu-18.04
+            steps:
+              - name: Checkout code
+                uses: actions/checkout@v2
+
+              - name: Build an image from Dockerfile
+                run: |
+                  docker build -t docker.io/my-organization/my-app:${{ github.sha }} .
+
+              - name: Run Trivy vulnerability scanner
+                uses: aquasecurity/trivy-action@master
+                with:
+                  image-ref: 'alpine:3.10.2'
+                  format: 'table'
+                  exit-code: '1'
+                  ignore-unfixed: true
+                  severity: 'CRITICAL,HIGH'
       
  # Deploy the Docker image to the GKE cluster
     - name: Deploy
