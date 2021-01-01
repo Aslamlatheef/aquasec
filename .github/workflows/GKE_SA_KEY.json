@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "hopeful-adapter-300110",
+  "private_key_id": "30903a5c989b912b9f3cf1e694011601e3af0314",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQChqF0juwOKaevI\nYSySmuoTN30CJQoSRwOgIBcx68xSlnr0sSQeloCKVbw2dQ/kMayZ6C5Of0W5LrlS\nVDAFAyy/IifGWT6O1DUlIbOY3MjXytyihmOQd9Txt6uiClWfPGk+oVyWjY3BGc3N\nOseTTsUY30qafP5X+MWf4849NhDxRdyPtuE67fXNGEJIhUBs5sK03+HnUJD4yQNx\nKHxCE9ElkMhR5sl2+pOOtk64kQPX5B2ajby8xSTXGPxgeSWaMVaCJgSTmQ6RyhR/\n3LL4s5t4/R9tbMYoTrr2Wk4aBaWEVaxl0B4txxIf44D32p4jNd24gULNUULdeJCu\nyOreAu3nAgMBAAECggEAGqSrv858JZKSMGheTEYJUOQoT54t1sKq2k1FBWPzkk5d\niCQElqCqIXftQ/HEjhDnKEaYEIqcFzVC3fV6JJlYBU2/zcplARgAhP9/oNtipA45\n5vTMnBbj8HgbwDfWfMlxdHJr1sm7FJmyzaG5GueJ8dt7aZLdkz+GcspnnLcN0SCL\nOEuVhRRGjC4HloiiIGXXXpgqBk+J9/Z/r33MIA37XYweztunJKDOCRdn/+L9WAwG\nWjh1wNcoFG21qDCjA7xJOVs4Hnv8rc3xOGEr07Rk1YH3FvcACffCDzZuphEOi/6k\niVeANWTH+2wEORRBRoCNdCdF7ZBcqpZwJFOhLm3TQQKBgQDdj697OyqPpGMzobZ6\n3Sax0sg811hRxOZY9mexaAJYw7BgKL6qQFFETByufZtWxdzlznbbWiMXSefh9qY5\nVkGIw2rncD4mlSGydGamPuoUVmW7K0moDjWN7vqSI9oi3Ge0Qt1gpjsafiMqyTr5\nzhS1SFoGMDwcTKsbj+Bz9eq9aQKBgQC6yQIcEYswjYhQz5Fa8mC7K7vcVk7j60lo\nw/ADb97T2M2wzd2/tWH8c7y1c4yrEh9FznS8cceq/2szHKm76C8T7HJ1rOlyW2YT\nVbLQSKZ4NLork12STsAfn20vCm7mneJDqdIPSrD4m04DNBRJ63m8mT+9z3auicbZ\n9RLeci7WzwKBgD9QWC028yqpJ1AR3juuBui5+06nmy2CvvCdOXSQ7FrBUR2phxLP\n3mlN9sRGUKWzVTS2k3CLiYuWKxV/jnDEHWYfseUBRkFwTHjamprXT70QE3IxJJNJ\nvDQbHq+0XxmnMlto4CpGVo1zjkkjyB6qrXBAhLlP/112606tBs8cb0BBAoGAHdN1\nK8g9Yq5nAwhyHISxn5G3ONLrXAe5PCp1jAb0HP30snPdIfyzvd05V/wwjSyio8H4\n8BJ3IL4SfyHnlKLZyaOrD1FiIamonhPELvA67Nz2kXjBq1g545LQm39eACNb+xQF\n//0cT0Z1aZuKVddtJAmQnR2gxPQpNaqlrbGr+w8CgYBv4IXf0AhFHX4hbaiKCYnX\ni25fsR8Z2XtEWH+/6aJKK//b2RlTWDFRkWKkUdt4xBPdN95FvNZyXnXHZ88fFZ9V\n46kW4shSzA1aFSGzmoIhefjIKWaXC7fGnaResbx1RH7dtMabRSJVmrRMYC34sLCV\nJLuX8/xleRdxj4wREuonJw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "googlecloudgke@hopeful-adapter-300110.iam.gserviceaccount.com",
+  "client_id": "102853861098077248122",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/googlecloudgke%40hopeful-adapter-300110.iam.gserviceaccount.com"
+}
